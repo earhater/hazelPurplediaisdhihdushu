@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "razom"
+version = "0.1.0"
+description = ""
+authors = ["valinor <valinorProg@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^2.23.1"
+aiogram-dialog = {git = "https://github.com/Tishka17/aiogram_dialog.git", rev = "master"}
+autopep8 = "^2.0.0"
+black = "^22.10.0"
+loguru = "^0.6.0"
+aioredis = "^2.0.1"
+tortoise-orm = "^0.19.2"
+aerich = "^0.7.1"
+asyncpg = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
